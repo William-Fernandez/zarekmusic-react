@@ -84,7 +84,7 @@ export default function ContactForm() {
                                 value={formData.fullName}
                                 onChange={handleChange}
                                 required
-                                className="w-[17rem] h-11 border rounded-md p-2 mt-2 outline-none"
+                                className="text-black w-[17rem] h-11 border rounded-md p-2 mt-2 outline-none"
                             />
                         </div>
                         <div className="mt-5 flex flex-col w-full drop-shadow-lg">
@@ -101,7 +101,7 @@ export default function ContactForm() {
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
-                                className="w-[17rem] h-11 border rounded-md p-2 mt-2 outline-none"
+                                className="text-black w-[17rem] h-11 border rounded-md p-2 mt-2 outline-none"
                             />
                         </div>
                     </div>
@@ -114,7 +114,7 @@ export default function ContactForm() {
                             value={formData.message}
                             onChange={handleChange}
                             required
-                            className="w-full border rounded-md p-2 mt-2 h-20 resize-none outline-none"
+                            className="text-black w-full border rounded-md p-2 mt-2 h-20 resize-none outline-none"
                         ></textarea>
                     </div>
                     <button

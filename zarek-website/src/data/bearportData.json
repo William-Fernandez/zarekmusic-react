@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../assets/img/Catalogo/nuloud-cover-art.jpg",
+        "image": "assets/img/Catalogo/nuloud-cover-art.jpg",
         "title": "Gang EP",
         "artist": "Zarek (COL)",
         "label": "Nuloud Records",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "image": "../assets/img/Catalogo/ep-lady-shake.png",
+        "image": "assets/img/Catalogo/ep-lady-shake.png",
         "title": "Lady Shake EP",
         "artist": "Zarek (COL)",
         "label": "Concept Groove",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "image": "../assets/img/Catalogo/3SS3NTI4L.jpg",
+        "image": "assets/img/Catalogo/3SS3NTI4L.jpg",
         "title": "That Feeling",
         "artist": "Zarek (COL)",
         "label": "BH Records",
