@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "/src/assets/img/Catalogo/nuloud-cover-art.jpg",
+        "title": "Gang EP",
+        "artist": "Zarek (COL)",
+        "label": "Nuloud Records",
+        "buyLink": "https://www.beatport.com/release/gang-ep/4750538"
+    },
+    {
+        "id": 2,
+        "image": "/src/assets/img/Catalogo/ep-lady-shake.png",
+        "title": "Lady Shake EP",
+        "artist": "Zarek (COL)",
+        "label": "Concept Groove",
+        "buyLink": "https://www.beatport.com/release/lady-shake-ep/4456018"
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/img/Catalogo/3SS3NTI4L.jpg",
+        "title": "That Feeling",
+        "artist": "Zarek (COL)",
+        "label": "BH Records",
+        "buyLink": "https://www.beatport.com/track/that-feeling/19352549"
+    }
+]
