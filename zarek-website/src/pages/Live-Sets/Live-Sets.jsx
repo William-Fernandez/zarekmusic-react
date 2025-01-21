@@ -25,7 +25,9 @@ export default function LiveSets() {
             <div className="hidden md:block">
                 <BackgroundVideo />
             </div>
-            <SoundCloudComp />
+            <div className="bg-black md:bg-transparent">
+                <SoundCloudComp />
+            </div>
             <Footer />
         </Layout>
     );

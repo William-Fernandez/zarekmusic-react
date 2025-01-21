@@ -45,7 +45,7 @@ export default function HomePage() {
             <div className="hidden md:block">
                 <BackgroundVideo />
             </div>
-            <section className="h-screen w-screen flex justify-center flex-col items-center overflow-hidden">
+            <section className="h-screen bg-black md:bg-transparent  w-screen flex justify-center flex-col items-center overflow-hidden">
                 <div className="container mx-auto px-4 pt-10 md:pt-20 flex flex-col items-center mb-14">
                     <motion.img
                         src={logo}
