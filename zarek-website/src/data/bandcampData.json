@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/img/Catalogo/Te-Pienso-Cover-Art.png",
+    "image": "../assets/img/Catalogo/Te-Pienso-Cover-Art.png",
     "title": "Te Pienso",
     "artist": "Zarek (COL)",
     "label": "BandCamp",
