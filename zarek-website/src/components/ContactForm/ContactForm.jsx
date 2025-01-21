@@ -18,6 +18,31 @@ export default function ContactForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+
+        if (!/^[a-zA-Z ]{2,}$/.test(formData.fullName)) {
+            setSubmissionMessage({
+                type: "error",
+                text: "Your name must be at least two letters long.",
+            });
+            return;
+        }
+
+        if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
+            setSubmissionMessage({
+                type: "error",
+                text: "Please enter a valid email address.",
+            });
+            return;
+        }
+
+        if (formData.message.length < 10) {
+            setSubmissionMessage({
+                type: "error",
+                text: "Please enter a message of at least 10 characters.",
+            });
+            return;
+        }
+
         console.log("handleSubmit se ha ejecutado");
         setIsSubmitting(true);
 
@@ -29,7 +54,7 @@ export default function ContactForm() {
             console.log("Datos a enviar:", formData);
 
             const response = await fetch(
-                "http://localhost:5000/api/send-email",
+                "https://zarekmusic.com/api/send-email",
                 {
                     method: "POST",
                     headers: {

@@ -1,6 +1,6 @@
 import React from "react";
 import Release from "./Release.jsx";
-import bandcampData from "../../data/bandcampData.json";
+import bandcampData from "../../data/bandcampData.js";
 
 function Releases() {
     return (

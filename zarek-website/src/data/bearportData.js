@@ -1,7 +1,11 @@
-[
+import gangCover from "../assets/img/Catalogo/nuloud-cover-art.jpg";
+import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.png";
+import thatFeelingCover from "../assets/img/Catalogo/3SS3NTI4L.jpg";
+
+const beatportData = [
     {
         "id": 1,
-        "image": "assets/img/Catalogo/nuloud-cover-art.jpg",
+        "image": gangCover,
         "title": "Gang EP",
         "artist": "Zarek (COL)",
         "label": "Nuloud Records",
@@ -9,7 +13,7 @@
     },
     {
         "id": 2,
-        "image": "assets/img/Catalogo/ep-lady-shake.png",
+        "image": ladyShakeCover,
         "title": "Lady Shake EP",
         "artist": "Zarek (COL)",
         "label": "Concept Groove",
@@ -17,10 +21,12 @@
     },
     {
         "id": 3,
-        "image": "assets/img/Catalogo/3SS3NTI4L.jpg",
+        "image": thatFeelingCover,
         "title": "That Feeling",
         "artist": "Zarek (COL)",
         "label": "BH Records",
         "buyLink": "https://www.beatport.com/track/that-feeling/19352549"
     }
-]
+];
+
+export default beatportData;
