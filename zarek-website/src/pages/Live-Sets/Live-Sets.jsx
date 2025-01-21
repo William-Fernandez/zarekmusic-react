@@ -22,7 +22,9 @@ export default function LiveSets() {
                 ogImage="/assets/img/zarek-live.jpg"
             />
             <Navbar />
-            <BackgroundVideo />
+            <div className="hidden md:block">
+                <BackgroundVideo />
+            </div>
             <SoundCloudComp />
             <Footer />
         </Layout>

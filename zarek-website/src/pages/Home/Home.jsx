@@ -42,7 +42,9 @@ export default function HomePage() {
                 is out now."
                 ogImage="/assets/img/Catalogo/nuloud-cover-art.webp"
             />
-            <BackgroundVideo />
+            <div className="hidden md:block">
+                <BackgroundVideo />
+            </div>
             <section className="h-screen w-screen flex justify-center flex-col items-center overflow-hidden">
                 <div className="container mx-auto px-4 pt-10 md:pt-20 flex flex-col items-center mb-14">
                     <motion.img
