@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import nuloudCover from '../../../assets/img/Catalogo/nuloud-cover-art.jpg';
+import nuloudCover from '../../../assets/img/Catalogo/nuloud-cover-art.webp';
 
 export default function ReleaseContent() {
     return (

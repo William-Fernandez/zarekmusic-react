@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { contenedorVariantes, varianteImagen, varianteTexto } from "../../../assets/Utils/animation.js";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import bioImage from "../../../assets/img/BACK-SPOTIFY-SQ.png";
+import bioImage from "../../../assets/img/BACK-SPOTIFY-SQ.webp";
 import BiographySection from "../../../components/Biography/BiographySection/BiographySection.jsx";
 import PageTitle from "../../../components/PageTitle/PageTitle.jsx";
 

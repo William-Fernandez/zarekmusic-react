@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../PageTitle/PageTitle.jsx";
 import DigitalStores from "../DigitalStores/DigitalStores.jsx";
-import imgRelease from "../../../assets/img/Catalogo/nuloud-cover-art.jpg";
+import imgRelease from "../../../assets/img/Catalogo/nuloud-cover-art.webp";
 
 export default function ReleaseText() {
     return (

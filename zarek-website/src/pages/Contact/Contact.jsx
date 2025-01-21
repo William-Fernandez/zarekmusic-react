@@ -5,7 +5,7 @@ import ContactForm from "../../components/ContactForm/ContactForm.jsx";
 import Navbar from "../../components/Navbar/NavbarPages.jsx";
 import PromoCard from "../../components/ContactForm/PromoCards.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
-import backimgMusic from "../../assets/img/zarek-studio-rosado.png";
+import backimgMusic from "../../assets/img/zarek-studio-rosado.webp";
 import Meta from "../../components/MetaTag/Meta.jsx";
 
 export default function Contact() {
@@ -13,12 +13,14 @@ export default function Contact() {
     const cardData = [
         {
             title: "INFO",
-            link: "zarekdj@gmail.com",
+            link: "mailto:zarekdj@gmail.com",
+            displayText: "zarekdj@gmail.com",
             iconName: "envelope",
         },
         {
             title: "PROMOS",
-            link: "Zarek's Inbox",
+            link: "https://tstack.app/zarekcol",
+            displayText: "Zarek's Inbox",
             iconName: "musicNote",
         },
     ];
@@ -34,7 +36,7 @@ export default function Contact() {
                 ogUrl={currentUrl}
                 ogTitle="Contact | Zarek (COL)"
                 ogDescription="For press, management, or booking inquiries for Zarek, visit his contact page. Find the necessary information to connect with his team."
-                ogImage="/assets/img/zarek-live.jpg"
+                ogImage="/assets/img/zarek-live.webp"
             />
             <Navbar />
 

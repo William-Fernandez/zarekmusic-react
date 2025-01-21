@@ -1,4 +1,4 @@
-import tePiensoCover from "../assets/img/Catalogo/Te-Pienso-Cover-Art.png";
+import tePiensoCover from "../assets/img/Catalogo/Te-Pienso-Cover-Art.webp";
 
 const bandcampData = [
   {

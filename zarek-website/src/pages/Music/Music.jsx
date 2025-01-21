@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/NavbarPages.jsx";
 import Layout from "../../components/Layout/Layout.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import ImageComponent from "../../components/ImageComponent/ImageComponent.jsx";
-import musicBack from "../../assets/img/banner-web.png";
+import musicBack from "../../assets/img/banner-web.webp";
 import ReleaseContent from "../../components/Music/ReleaseContent/ReleaseContent.jsx";
 import SpotifyContent from "../../components/Music/SpotifyContent/SpotifyContent.jsx";
 import Meta from "../../components/MetaTag/Meta.jsx";
@@ -22,7 +22,7 @@ export default function Music() {
                 ogUrl={currentUrl}
                 ogTitle="Music | Zarek (COL)"
                 ogDescription="Experience the music of Zarek on Spotify. Stream now and follow him for updates on new releases!"
-                ogImage="/assets/img/Catalogo/nuloud-cover-art.jpg"
+                ogImage="/assets/img/Catalogo/nuloud-cover-art.webp"
             />
             <div className="min-h-screen relative ">
                 <ImageComponent

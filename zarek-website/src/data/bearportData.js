@@ -1,6 +1,6 @@
-import gangCover from "../assets/img/Catalogo/nuloud-cover-art.jpg";
-import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.png";
-import thatFeelingCover from "../assets/img/Catalogo/3SS3NTI4L.jpg";
+import gangCover from "../assets/img/Catalogo/nuloud-cover-art.webp";
+import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.webp";
+import thatFeelingCover from "../assets/img/Catalogo/3SS3NTI4L.webp";
 
 const beatportData = [
     {

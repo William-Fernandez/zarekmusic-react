@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ImageComponent from "../../ImageComponent/ImageComponent";
-import zarekPhoto from "../../../assets/img/zarek-studio-dg.png";
+import zarekPhoto from "../../../assets/img/zarek-studio-dg.webp";
 
 export default function SpotifyContent() {
     const [playing, setPlaying] = useState(false);

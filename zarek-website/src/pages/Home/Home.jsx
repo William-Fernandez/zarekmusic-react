@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../../components/Navbar/Navbar.jsx";
-import logo from "../../assets/img/logo.png";
+import logo from "../../assets/img/logo.webp";
 import Layout from "../../components/Layout/Layout.jsx";
 import SocialIcons from "../../components/SocialIcons/SocialIcons.jsx";
 import BackgroundVideo from "../../components/VideoBack/VideoBack.jsx";
@@ -40,7 +40,7 @@ export default function HomePage() {
                 ogTitle="Home | Zarek (COL)"
                 ogDescription="Welcome to Zarek's official website. New ep GANG
                 is out now."
-                ogImage="/assets/img/Catalogo/nuloud-cover-art.jpg"
+                ogImage="/assets/img/Catalogo/nuloud-cover-art.webp"
             />
             <BackgroundVideo />
             <section className="h-screen w-screen flex justify-center flex-col items-center overflow-hidden">

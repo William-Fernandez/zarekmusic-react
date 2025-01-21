@@ -1,5 +1,5 @@
 import React from "react";
-import VideoBack from "../../assets/video/Party-Video.mp4";
+import VideoBack from "../../assets/video/Party-Video.webm";
 
 function BackgroundVideo() {
     return (
@@ -11,7 +11,7 @@ function BackgroundVideo() {
                 muted
                 className="min-w-full min-h-full absolute object-cover"
             >
-                <source src={VideoBack} type="video/mp4" />{" "}
+                <source src={VideoBack} type="video/webm" />{" "}
                 Tu navegador no soporta videos.
             </video>
             <div className="absolute top-0 left-0 w-full h-full bg-black/85"></div>{" "}

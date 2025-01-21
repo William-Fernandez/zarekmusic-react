@@ -19,7 +19,7 @@ export default function Bio() {
                 ogUrl={currentUrl}
                 ogTitle="Bio | Zarek (COL)"
                 ogDescription="Colombian-born, UK-based DJ and producer Zarek brings a unique Latin-infused sound to Tech House, House, Techno, and Afro House. Learn more about his musical journey and achievements."
-                ogImage="../../assets/img/Catalogo/nuloud-cover-art.jpg"
+                ogImage="../../assets/img/Catalogo/nuloud-cover-art.webp"
             />
             <div className="bg-black min-h-screen relative font-monserrat">
                 <Navbar />

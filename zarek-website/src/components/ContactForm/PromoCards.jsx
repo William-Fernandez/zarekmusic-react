@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMusic } from "@fortawesome/free-solid-svg-icons";
 
-function Card({ title, link, iconName }) {
+function Card({ title, link, displayText, iconName }) {
     const getIcon = () => {
         switch (iconName) {
             case "envelope":
@@ -30,8 +30,10 @@ function Card({ title, link, iconName }) {
             <a
                 href={link}
                 className="text-white no-underline hover:underline break-words text-lg"
+                target="_blank"
+                rel="noopener noreferrer"
             >
-                {link}
+                {displayText || link}
             </a>
         </div>
     );
