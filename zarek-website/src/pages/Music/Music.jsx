@@ -22,7 +22,7 @@ export default function Music() {
                 ogUrl={currentUrl}
                 ogTitle="Music | Zarek (COL)"
                 ogDescription="Experience the music of Zarek on Spotify. Stream now and follow him for updates on new releases!"
-                ogImage="/assets/img/Catalogo/nuloud-cover-art.webp"
+                ogImage="/assets/img/Catalogo/shortyCover.webp"
             />
             <div className="min-h-screen relative ">
                 <ImageComponent
