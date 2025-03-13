@@ -9,6 +9,7 @@ export default function ReleaseText() {
             <PageTitle
                 title="New release"
                 textPosition="start"
+                decoration={"decoration-[#FF0D10]"}
             />
             <h3 className="text-2xl text-white mt-3 mb-6 font-bold">Out Now !</h3>
             <div className="h-56 w-56 md:hidden">

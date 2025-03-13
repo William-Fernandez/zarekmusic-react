@@ -25,7 +25,7 @@ export default function Downloads() {
                         />
             <Navbar />
             <div className="mt-5 pt-16 px-5 md:px-0">
-                <PageTitle title="BANDCAMP RELEASES" textPosition="center" />
+                <PageTitle title="BANDCAMP RELEASES" textPosition="center" decoration={"decoration-cyan-700"} />
             </div>
             <BandcampReleases />
             <div className="mt-5">

@@ -51,7 +51,7 @@ export default function Contact() {
 
                 <div className="relative z-10 mx-auto max-w-7xl md:px-6 pb-12">
                     <div className="drop-shadow-lg">
-                        <PageTitle title="CONTACT" textPosition="center" />
+                        <PageTitle title="CONTACT" textPosition="center" decoration={"decoration-cyan-700"} />
                         <div className="flex flex-col xs:flex-row justify-center items-center mt-10 mb-5">
                             {cardData.map((card, index) => (
                                 <PromoCard key={index} {...card} />

@@ -30,7 +30,7 @@ export default function BioContent() {
                         variants={varianteTexto}
                         className="w-11/12 lg:w-1/2 min-h-dvh mt-5 px-2 pb-5 flex flex-col justify-center overflow-hidden"
                     >
-                        <PageTitle title='BIOGRAPHY' textPosition='center'/>
+                        <PageTitle title='BIOGRAPHY' textPosition='center' decoration={"decoration-cyan-700"}/>
                         <BiographySection />
                     </motion.div>
                 </motion.div>

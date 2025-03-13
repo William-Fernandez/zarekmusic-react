@@ -16,11 +16,11 @@ function BiographySection() {
                 around the world, from private parties to big festivals such as{" "}
                 <b>Music On</b> in Amsterdam and <b>Space Miami</b>,{" "}
                 <b>Partai</b> in Venezuela and many more. Also supported by
-                prominent artists including Manda Moor, Miguelle and Tons, DH
+                prominent artists including Manda Moor, Mason Collective, Miguelle and Tons, Ale De Tuglie,DH
                 Moon, Moreno & Prieto, Rel3r. He has also managed to share the
                 stage with some renowned artists from the scene such as
                 Francesco Poggi, Mahony, Michael Bibi, Joseph Capriatti, Steve
-                Aguirre, Sebastian Ledher, Angy M, Cassimm, among others.
+                Aguirre, Sebastian Ledher, Angy M, Cassimm, Insolentes, among others.
             </p>
             <p className="p-2">
                 In July 2016, <strong>Zarek</strong> moved to London, UK, where
@@ -41,11 +41,7 @@ function BiographySection() {
                 multiple residencies across his hometown, Cali.
             </p>
             <p className="p-2">
-                <strong>Zarek</strong> is currently back in the UK, where as of
-                April he will be performing and working alongside other artists
-                across the country, this time focusing more on production with
-                influential artists in the UK industry, with multiple releases
-                in the pipeline for this year. Keep your eyes peeled!
+                Currently based in the UK, <strong>Zarek</strong> is temporarily in Colombia, collaborating with influential artists in the vibrant Colombian music scene. This exciting chapter focuses on pushing creative boundaries in music production, with multiple highly anticipated releases slated for this year. Stay tuned for what's coming next!
             </p>
         </div>
     );
