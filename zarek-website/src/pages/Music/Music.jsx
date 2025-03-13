@@ -30,7 +30,7 @@ export default function Music() {
                     alt="Music Background"
                     className="hidden md:block -z-40 position absolute top-0 object-cover w-screen"
                 />
-                <div className="-z-20 absolute top-0 left-0 w-full h-full bg-black md:bg-black/40"></div>
+                <div className="-z-20 absolute top-0 left-0 w-full h-full bg-orange-500 md:bg-orange-500/40"></div>
                 <Navbar />
                 <ReleaseContent />
                 <SpotifyContent />
