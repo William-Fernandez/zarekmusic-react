@@ -1,10 +1,28 @@
 import gangCover from "../assets/img/Catalogo/nuloud-cover-art.webp";
 import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.webp";
 import thatFeelingCover from "../assets/img/Catalogo/3SS3NTI4L.webp";
+import shortyCover from "../assets/img/Catalogo/shortyCover.webp";
+import talkCover from "../assets/img/Catalogo/talkCover.webp";
 
 const beatportData = [
     {
         "id": 1,
+        "image": shortyCover,
+        "title": "Shorty Remix",
+        "artist": "Zarek (COL)",
+        "label": "Arcila Records",
+        "buyLink": "https://www.beatport.com/track/shorty/20051595"
+    },
+    {
+        "id": 2,
+        "image": talkCover,
+        "title": "Talk French",
+        "artist": "Zarek (COL)",
+        "label": "BH Records",
+        "buyLink": "https://www.beatport.com/track/talk-french/20119307"
+    },
+    {
+        "id": 3,
         "image": gangCover,
         "title": "Gang EP",
         "artist": "Zarek (COL)",
@@ -12,7 +30,7 @@ const beatportData = [
         "buyLink": "https://www.beatport.com/release/gang-ep/4750538"
     },
     {
-        "id": 2,
+        "id": 4,
         "image": ladyShakeCover,
         "title": "Lady Shake EP",
         "artist": "Zarek (COL)",
@@ -20,7 +38,7 @@ const beatportData = [
         "buyLink": "https://www.beatport.com/release/lady-shake-ep/4456018"
     },
     {
-        "id": 3,
+        "id": 5,
         "image": thatFeelingCover,
         "title": "That Feeling",
         "artist": "Zarek (COL)",
