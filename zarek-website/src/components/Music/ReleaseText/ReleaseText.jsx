@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../PageTitle/PageTitle.jsx";
 import DigitalStores from "../DigitalStores/DigitalStores.jsx";
-import imgRelease from "../../../assets/img/Catalogo/nuloud-cover-art.webp";
+import imgRelease from "../../../assets/img/Catalogo/shortyCover.webp";
 
 export default function ReleaseText() {
     return (
@@ -12,10 +12,10 @@ export default function ReleaseText() {
             />
             <h3 className="text-2xl text-white mt-3 mb-6 font-bold">Out Now !</h3>
             <div className="h-56 w-56 md:hidden">
-                <img src={imgRelease} alt="Gang EP Cover Art" className="w-full h-full" />
+                <img src={imgRelease} alt="Shorty Remix Cover Art" className="w-full h-full" />
             </div>
             <p className="text-white mt-5 text-center text-sm md:text-base md:text-start">
-                Zarek's new EP <strong>"Gang"</strong> is here! Two explosive tracks, <strong>"Gang"</strong> and <strong>"Ven Pa'Ca"</strong>, under the Nuloud label. Get ready to dance!
+            <strong>"Shorty"</strong> is a remix from a remix album of a version by <strong>Nico Ramirez</strong>, released under his own label, <strong>Arcila Records</strong>, a UK-based imprint. It features the vocals of a classic reggaeton track, blended with a tech house beat in <strong>Zarek</strong>’s signature style—full of rhythm, groove, and vibrant sounds. A perfect mix of rumba and energy for the dancefloor!
                 Available now on Spotify, Apple Music, Deezer, SoundCloud and more.
             </p>
             <div className="md:mt-2 pt-3 pb-7 md:pt-3 flex flex-col md:flex-row items-center">

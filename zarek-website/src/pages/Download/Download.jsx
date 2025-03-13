@@ -21,7 +21,7 @@ export default function Downloads() {
                             ogUrl={currentUrl}
                             ogTitle="Download | Zarek (COL)"
                             ogDescription="Download Zarek's latest music releases, including tracks, EPs, and more. Get your copy now!"
-                            ogImage="/assets/img/Catalogo/nuloud-cover-art.jpg"
+                            ogImage="/assets/img/Catalogo/shortyCover.webp"
                         />
             <Navbar />
             <div className="mt-5 pt-16 px-5 md:px-0">

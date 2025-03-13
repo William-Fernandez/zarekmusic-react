@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import nuloudCover from '../../../assets/img/Catalogo/nuloud-cover-art.webp';
+import shortyCover from '../../../assets/img/Catalogo/shortyCover.webp';
 
 export default function ReleaseContent() {
     return (
@@ -28,8 +28,8 @@ export default function ReleaseContent() {
                 className="hidden w-full md:w-1/2 min-h-full mb-24 md:mb-0 md:flex justify-center items-center"
             >
                 <ImageComponent
-                    src={nuloudCover}
-                    alt="Gang-EP CoverArt"
+                    src={shortyCover}
+                    alt="Shorty Remix CoverArt"
                     className="w-80 rounded-3xl shadow-2xl shadow-gray-400/60"
                 />
             </motion.div>
