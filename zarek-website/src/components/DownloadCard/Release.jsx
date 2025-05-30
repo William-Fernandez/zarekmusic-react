@@ -37,7 +37,7 @@ export default function DownloadCards({
                 rel="noopener noreferrer"
                 className="bg-white hover:bg-cyan-600 text-cyan-600 hover:text-white font-bold py-2 px-4 rounded mt-4 w-11/12 text-center transition duration-300"
             ><FontAwesomeIcon icon={faCartShopping} className="mr-1"/>
-                Comprar
+                Buy
             </a>
         </div>
     );

@@ -13,47 +13,47 @@ export default function DigitalStores() {
     return (
         <div className="z-20 flex justify-center items-center gap-3 mx-2 text-zinc-300">
             <a
-                href="https://www.beatport.com/track/shorty/20051595"
+                href="https://www.beatport.com/es/track/voyage/20501991"
                 target="_blank"
                 title="Beatport"
             >
-                <FontAwesomeIcon icon={faCartShopping} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
+                <FontAwesomeIcon icon={faCartShopping} className="hover:scale-125 transition duration-300 hover:text-[#9DE0B2]" size="xl"/>
             </a>
             <a
-                href="https://open.spotify.com/intl-es/track/5KDlM0RayJIBb2GkyVoTLN?si=ad0b70a504054e9b"
+                href="https://open.spotify.com/intl-es/track/76r29J3xoFhodwLeZQlYXs?si=a8066d887e14436c"
                 target="_blank"
                 title="Spotify"
             >
-                <FontAwesomeIcon icon={faSpotify} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
+                <FontAwesomeIcon icon={faSpotify} className="hover:scale-125 transition duration-300 hover:text-[#9DE0B2]" size="xl"/>
             </a>
             <a
-                href="https://music.apple.com/co/album/shorty-zarek-col-remix/1792532719?i=1792532734"
+                href="https://music.apple.com/us/song/voyage/1814143039"
                 target="_blank"
                 title="Apple Music"
             >
-                <FontAwesomeIcon icon={faApple} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
+                <FontAwesomeIcon icon={faApple} className="hover:scale-125 transition duration-300 hover:text-[#9DE0B2]" size="xl"/>
             </a>
             <a
-                href="https://youtu.be/P3u6-Y3kLRE?si=ukv4GnV-K7WkNGKD"
+                href="https://youtu.be/ZlQ1Tol15yw?si=mMGzFChvDIID7pK0"
                 target="_blank"
                 title="Youtube"
             >
-                <FontAwesomeIcon icon={faYoutube} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
+                <FontAwesomeIcon icon={faYoutube} className="hover:scale-125 transition duration-300 hover:text-[#9DE0B2]" size="xl"/>
             </a>
             <a
-                href="https://dzr.page.link/AmzoR9zK7CZFaAAz7"
+                href="https://dzr.page.link/Tg6vCCd8b4RP2iMVA"
                 target="_blank"
                 title="Deezer"
             >
-                <FontAwesomeIcon icon={faDeezer} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
+                <FontAwesomeIcon icon={faDeezer} className="hover:scale-125 transition duration-300 hover:text-[#9DE0B2]" size="xl"/>
             </a>
-            <a
+            {/* <a
                 href="https://soundcloud.com/arcila-records-494898887/nico-rami-rez-shorty-zarek-col?si=b5672015ea2f4eb680d8bde766cd72b0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                 target="_blank"
                 title="SoundCloud"
             >
                 <FontAwesomeIcon icon={faSoundcloud} className="hover:scale-125 transition duration-300 hover:text-[#FF0D10]" size="xl"/>
-            </a>
+            </a> */}
         </div>
     );
 }
