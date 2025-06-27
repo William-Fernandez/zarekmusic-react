@@ -11,7 +11,7 @@ const beatportData = [
         "image": voyageCover,
         "title": "Voyage",
         "artist": "Sebastian Montoya Ft. Zarek (COL)",
-        "label": "Sojos",
+        "label": "Concept Groove",
         "buyLink": "https://www.beatport.com/es/track/voyage/20501991"
     },
     {
@@ -19,7 +19,7 @@ const beatportData = [
         "image": voxCover,
         "title": "The Vox",
         "artist": "Zarek (COL) Ft. Felipe M",
-        "label": "BH Records",
+        "label": "Sojos",
         "buyLink": "https://www.beatport.com/es/track/the-vox/20599226"
     },
     {
