@@ -41,7 +41,7 @@ function BiographySection() {
                 multiple residencies across his hometown, Cali.
             </p>
             <p className="p-2">
-                Currently based in the UK, <strong>Zarek</strong> is temporarily in Colombia, collaborating with influential artists in the vibrant Colombian music scene. This exciting chapter focuses on pushing creative boundaries in music production, with multiple highly anticipated releases slated for this year. Stay tuned for what's coming next!
+                Currently based in the UK, <strong>Zarek</strong> has just return from Colombia, where he was collaborating with influential artists in the vibrant Colombian music scene. This exciting chapter focused on pushing creative boundaries in music production, with multiple highly anticipated releases slated for this year. Stay tuned for what's coming next!
             </p>
         </div>
     );

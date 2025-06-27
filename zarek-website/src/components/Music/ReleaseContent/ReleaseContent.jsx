@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import voyageCover from '../../../assets/img/Catalogo/voyageCover.webp';
+import voxCover from '../../../assets/img/Catalogo/sojos-release.webp';
 
 export default function ReleaseContent() {
     return (
@@ -28,9 +28,9 @@ export default function ReleaseContent() {
                 className="hidden w-full md:w-1/2 min-h-full mb-24 md:mb-0 md:flex justify-center items-center"
             >
                 <ImageComponent
-                    src={voyageCover}
-                    alt="Voyage CoverArt"
-                    className="w-80 rounded-3xl shadow-2xl shadow-gray-400/60"
+                    src={voxCover}
+                    alt="The Vox CoverArt"
+                    className="w-80 rounded-3xl shadow-2xl shadow-[#590D14]/50"
                 />
             </motion.div>
         </motion.div>
