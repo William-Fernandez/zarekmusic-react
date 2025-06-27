@@ -30,7 +30,7 @@ export default function ReleaseContent() {
                 <ImageComponent
                     src={voxCover}
                     alt="The Vox CoverArt"
-                    className="w-80 rounded-3xl shadow-2xl shadow-[#590D14]/50"
+                    className="w-80 rounded-3xl shadow-2xl shadow-[#36080C]/50"
                 />
             </motion.div>
         </motion.div>

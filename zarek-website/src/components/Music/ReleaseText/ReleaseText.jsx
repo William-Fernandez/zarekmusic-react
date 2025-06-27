@@ -20,7 +20,7 @@ export default function ReleaseText() {
             Now available on Beatport, Spotify, Apple Music, Deezer, and all major platforms.
             </p>
             <div className="md:mt-2 pt-3 pb-7 md:pt-3 flex flex-col md:flex-row items-center">
-                <p className="md:mr-10 text-lg mb-2 md:text-xl text-white font-bold">Listen Here:</p>
+                <p className="md:mr-10 text-lg md:text-xl text-white font-bold">Listen Here:</p>
                 <DigitalStores />
             </div>
         </div>
