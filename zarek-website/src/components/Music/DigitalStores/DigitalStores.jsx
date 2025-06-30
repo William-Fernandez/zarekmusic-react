@@ -13,35 +13,35 @@ export default function DigitalStores() {
     return (
         <div className="z-20 flex justify-center items-center gap-3 mx-2 text-zinc-300">
             <a
-                href="https://www.beatport.com/es/track/voyage/20501991"
+                href="https://www.beatport.com/es/track/the-vox/20599226"
                 target="_blank"
                 title="Beatport"
             >
                 <FontAwesomeIcon icon={faCartShopping} className="hover:scale-125 transition duration-300 hover:text-[#E23C4A]" size="xl"/>
             </a>
             <a
-                href="https://open.spotify.com/intl-es/track/76r29J3xoFhodwLeZQlYXs?si=a8066d887e14436c"
+                href="https://open.spotify.com/intl-es/track/4XjRRYkjJfzwGRFlthU9EG?si=e23466fd0c9642f2"
                 target="_blank"
                 title="Spotify"
             >
                 <FontAwesomeIcon icon={faSpotify} className="hover:scale-125 transition duration-300 hover:text-[#E23C4A]" size="xl"/>
             </a>
             <a
-                href="https://music.apple.com/us/song/voyage/1814143039"
+                href="https://music.apple.com/us/song/the-vox/1818529221"
                 target="_blank"
                 title="Apple Music"
             >
                 <FontAwesomeIcon icon={faApple} className="hover:scale-125 transition duration-300 hover:text-[#E23C4A]" size="xl"/>
             </a>
             <a
-                href="https://youtu.be/ZlQ1Tol15yw?si=mMGzFChvDIID7pK0"
+                href="https://youtu.be/Icd4EiVaHZk?si=d_4XumaVJzDhtBX3"
                 target="_blank"
                 title="Youtube"
             >
                 <FontAwesomeIcon icon={faYoutube} className="hover:scale-125 transition duration-300 hover:text-[#E23C4A]" size="xl"/>
             </a>
             <a
-                href="https://dzr.page.link/Tg6vCCd8b4RP2iMVA"
+                href="https://link.deezer.com/s/30lsWP1QmNZ6MiOYloo4I"
                 target="_blank"
                 title="Deezer"
             >
