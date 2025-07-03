@@ -15,12 +15,14 @@ function BiographySection() {
                 marked rhythms and a lot of Groove. His music is being played
                 around the world, from private parties to big festivals such as{" "}
                 <b>Music On</b> in Amsterdam and <b>Space Miami</b>,{" "}
-                <b>Partai</b> in Venezuela and many more. Also supported by
-                prominent artists including Manda Moor, Mason Collective, Miguelle and Tons, Ale De Tuglie,DH
-                Moon, Moreno & Prieto, Rel3r. He has also managed to share the
-                stage with some renowned artists from the scene such as
-                Francesco Poggi, Mahony, Michael Bibi, Joseph Capriatti, Steve
-                Aguirre, Sebastian Ledher, Angy M, Cassimm, Insolentes, among others.
+                <b>Partai</b> in Venezuela, <b>Cocoa</b> in Spain and many more.
+                Also supported by prominent artists including Manda Moor, Mason
+                Collective, Miguelle and Tons, Ale De Tuglie, AJ Christou, Vito
+                (UK), Moreno & Prieto, Rel3r and more. He has also managed to
+                share the stage with some renowned artists from the scene such
+                as Francesco Poggi, Mahony, Michael Bibi, Joseph Capriatti,
+                Steve Aguirre, Sebastian Ledher, Angy M, Cassimm, Insolentes,
+                among others.
             </p>
             <p className="p-2">
                 In July 2016, <strong>Zarek</strong> moved to London, UK, where
@@ -41,7 +43,12 @@ function BiographySection() {
                 multiple residencies across his hometown, Cali.
             </p>
             <p className="p-2">
-                Currently based in the UK, <strong>Zarek</strong> has just return from Colombia, where he was collaborating with influential artists in the vibrant Colombian music scene. This exciting chapter focused on pushing creative boundaries in music production, with multiple highly anticipated releases slated for this year. Stay tuned for what's coming next!
+                Currently based in the UK, <strong>Zarek</strong> has just
+                return from Colombia, where he was collaborating with
+                influential artists in the vibrant Colombian music scene. This
+                exciting chapter focused on pushing creative boundaries in music
+                production, with multiple highly anticipated releases slated for
+                this year. Stay tuned for what's coming next!
             </p>
         </div>
     );
