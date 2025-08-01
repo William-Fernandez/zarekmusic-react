@@ -16,7 +16,7 @@ export default function ReleaseText() {
                 <img src={imgRelease} alt="Voyage Cover Art" className="w-full h-full" />
             </div>
             <p className="text-white mt-3 text-center text-sm md:text-base md:text-start">
-            <strong className="text-[#D02E03]">The Vox</strong> is a fresh collaboration between <strong className="text-[#D02E03]">Zarek</strong> and <strong className="text-[#D02E03]">Felipe M</strong>. Released by <strong className="text-[#D02E03]">Sojos</strong> as part of the "<strong className="text-[#D02E03]">Chapter Three VA 2025</strong>" compilation. The track blends crisp percussion and rolling grooves with subtle vocal chops that give it its name, offering a clean and energetic sound built for the dancefloor.<br />
+            <strong className="text-[#eab802]"><em>Mamboleando</em></strong> is the debut release by <strong className="text-[#eab802]">Zarek</strong> on his new label,  <strong className="text-[#eab802]">MNTRV Records</strong>. The track blends tech house rhythm with Latin percussion, talkative saxophones, subtle vocals, and hypnotic groove. With clear influences from Latin jazz and electronic music, <em>Mamboleando</em> delivers an energetic sound built for clubs, afterparties and summer festivals.<br /> <br />
             Now available on Beatport, Spotify, Apple Music, Deezer, and all major platforms.
             </p>
             <div className="md:mt-2 pt-3 pb-7 md:pt-3 flex flex-col md:flex-row items-center">
