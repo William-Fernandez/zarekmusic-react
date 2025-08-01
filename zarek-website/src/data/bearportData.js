@@ -1,7 +1,7 @@
 import gangCover from "../assets/img/Catalogo/nuloud-cover-art.webp";
 import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.webp";
 import voxCover from "../assets/img/Catalogo/sojos-release.webp";
-import shortyCover from "../assets/img/Catalogo/shortyCover.webp";
+import mamboleandoCover from "../assets/img/Catalogo/MamboleandoCover.webp";
 import talkCover from "../assets/img/Catalogo/talkCover.webp";
 import voyageCover from "../assets/img/Catalogo/voyageCover.webp";
 
@@ -24,19 +24,19 @@ const beatportData = [
     },
     {
         "id": 3,
+        "image": mamboleandoCover,
+        "title": "Mamboleando",
+        "artist": "Zarek (COL)",
+        "label": "MNTRV Records",
+        "buyLink": "https://www.beatport.com/es/release/mamboleando/5178931"
+    },
+    {
+        "id": 4,
         "image": ladyShakeCover,
         "title": "Lady Shake EP",
         "artist": "Zarek (COL)",
         "label": "Concept Groove",
         "buyLink": "https://www.beatport.com/release/lady-shake-ep/4456018"
-    },
-    {
-        "id": 4,
-        "image": shortyCover,
-        "title": "Shorty Remix",
-        "artist": "Zarek (COL)",
-        "label": "Arcila Records",
-        "buyLink": "https://www.beatport.com/track/shorty/20051595"
     },
     {
         "id": 5,
