@@ -16,19 +16,19 @@ const beatportData = [
     },
     {
         "id": 2,
-        "image": voxCover,
-        "title": "The Vox",
-        "artist": "Zarek (COL) Ft. Felipe M",
-        "label": "Sojos",
-        "buyLink": "https://www.beatport.com/es/track/the-vox/20599226"
-    },
-    {
-        "id": 3,
         "image": mamboleandoCover,
         "title": "Mamboleando",
         "artist": "Zarek (COL)",
         "label": "MNTRV Records",
         "buyLink": "https://www.beatport.com/es/release/mamboleando/5178931"
+    },
+    {
+        "id": 3,
+        "image": voxCover,
+        "title": "The Vox",
+        "artist": "Zarek (COL) Ft. Felipe M",
+        "label": "Sojos",
+        "buyLink": "https://www.beatport.com/es/track/the-vox/20599226"
     },
     {
         "id": 4,

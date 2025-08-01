@@ -50,6 +50,12 @@ function BiographySection() {
                 production, with multiple highly anticipated releases slated for
                 this year. Stay tuned for what's coming next!
             </p>
+            <p className="p-2">
+                In 2025, Zarek launched his own record label, MNTRV Records,
+                marking a major milestone in his career as both an artist and
+                entrepreneur.
+            </p>
+            <p className="p-2">Stay tuned for what’s coming next!</p>
         </div>
     );
 }
