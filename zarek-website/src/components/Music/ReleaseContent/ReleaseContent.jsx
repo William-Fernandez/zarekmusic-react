@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import mamboleandoCover from '../../../assets/img/Catalogo/MamboleandoCover.webp';
+import JiggleCover from '../../../assets/img/Catalogo/JiggleCoverArt.webp';
 
 export default function ReleaseContent() {
     return (
@@ -28,8 +28,8 @@ export default function ReleaseContent() {
                 className="hidden w-full md:w-1/2 min-h-full mb-24 md:mb-0 md:flex justify-center items-center"
             >
                 <ImageComponent
-                    src={mamboleandoCover}
-                    alt="The Vox CoverArt"
+                    src={JiggleCover}
+                    alt="Jiggle CoverArt"
                     className="w-80 rounded-2xl shadow-2xl shadow-[#513F01]/50"
                 />
             </motion.div>

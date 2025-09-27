@@ -13,46 +13,46 @@ export default function DigitalStores() {
     return (
         <div className="z-20 flex justify-center items-center gap-3 mx-2 text-zinc-300">
             <a
-                href="https://www.beatport.com/es/release/mamboleando/5178931"
+                href="https://www.beatport.com/es/release/jiggle/5280531"
                 target="_blank"
                 title="Beatport"
             >
-                <FontAwesomeIcon icon={faCartShopping} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faCartShopping} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
             <a
-                href="https://open.spotify.com/intl-es/track/29E7VAdqCTRRL8OtUFI38P?si=13a29925aa85486a"
+                href="https://open.spotify.com/intl-es/track/2xsPkfq14w74AFi3ncBm44?si=119b76ce592a43fb"
                 target="_blank"
                 title="Spotify"
             >
-                <FontAwesomeIcon icon={faSpotify} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faSpotify} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
             <a
-                href="https://music.apple.com/us/song/mamboleando/1826573556"
+                href="https://music.apple.com/gb/song/jiggle/1833666094"
                 target="_blank"
                 title="Apple Music"
             >
-                <FontAwesomeIcon icon={faApple} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faApple} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
             <a
-                href="https://youtu.be/f2rUuIzBnLs?si=8vVJ89gLVwPcPuPe"
+                href="https://www.youtube.com/watch?v=kOaPcIKeYbg"
                 target="_blank"
                 title="Youtube"
             >
-                <FontAwesomeIcon icon={faYoutube} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faYoutube} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
             <a
-                href="https://link.deezer.com/s/30DwHFicxy7Jcg1LyKS8E"
+                href="https://www.deezer.com/es/track/3511506071"
                 target="_blank"
                 title="Deezer"
             >
-                <FontAwesomeIcon icon={faDeezer} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faDeezer} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
             <a
-                href="https://soundcloud.com/zarek-dj/mamboleando-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                href="https://on.soundcloud.com/E9aSDRd2VOvFz8EX6T"
                 target="_blank"
                 title="SoundCloud"
             >
-                <FontAwesomeIcon icon={faSoundcloud} className="hover:scale-125 transition duration-300 hover:text-[#D02E03]" size="xl"/>
+                <FontAwesomeIcon icon={faSoundcloud} className="hover:scale-125 transition duration-300 hover:text-[#ECE81F]" size="xl"/>
             </a>
         </div>
     );

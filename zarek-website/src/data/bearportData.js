@@ -4,10 +4,19 @@ import voxCover from "../assets/img/Catalogo/sojos-release.webp";
 import mamboleandoCover from "../assets/img/Catalogo/MamboleandoCover.webp";
 import talkCover from "../assets/img/Catalogo/talkCover.webp";
 import voyageCover from "../assets/img/Catalogo/voyageCover.webp";
+import jiggleCover from "../assets/img/Catalogo/JiggleCoverArt.webp";
 
 const beatportData = [
     {
         "id": 1,
+        "image": jiggleCover,
+        "title": "Jiggle",
+        "artist": "Zarek (COL)",
+        "label": "MNTRV Records",
+        "buyLink": "https://www.beatport.com/es/release/jiggle/5280531"
+    },
+    {
+        "id": 2,
         "image": voyageCover,
         "title": "Voyage",
         "artist": "Sebastian Montoya Ft. Zarek (COL)",
@@ -15,7 +24,7 @@ const beatportData = [
         "buyLink": "https://www.beatport.com/es/track/voyage/20501991"
     },
     {
-        "id": 2,
+        "id": 3,
         "image": mamboleandoCover,
         "title": "Mamboleando",
         "artist": "Zarek (COL)",
@@ -23,7 +32,7 @@ const beatportData = [
         "buyLink": "https://www.beatport.com/es/release/mamboleando/5178931"
     },
     {
-        "id": 3,
+        "id": 4,
         "image": voxCover,
         "title": "The Vox",
         "artist": "Zarek (COL) Ft. Felipe M",
@@ -31,20 +40,12 @@ const beatportData = [
         "buyLink": "https://www.beatport.com/es/track/the-vox/20599226"
     },
     {
-        "id": 4,
+        "id": 5,
         "image": ladyShakeCover,
         "title": "Lady Shake EP",
         "artist": "Zarek (COL)",
         "label": "Concept Groove",
         "buyLink": "https://www.beatport.com/release/lady-shake-ep/4456018"
-    },
-    {
-        "id": 5,
-        "image": talkCover,
-        "title": "Talk French",
-        "artist": "Zarek (COL)",
-        "label": "BH Records",
-        "buyLink": "https://www.beatport.com/track/talk-french/20119307"
     },
     {
         "id": 6,
