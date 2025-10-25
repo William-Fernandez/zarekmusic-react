@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../../PageTitle/PageTitle.jsx";
 import DigitalStores from "../DigitalStores/DigitalStores.jsx";
-import imgRelease from "../../../assets/img/Catalogo/JiggleCoverArt.webp";
+import imgRelease from "../../../assets/img/Catalogo/jazzeadoCoverArtOficial.webp";
 
 export default function ReleaseText() {
     return (
@@ -9,14 +9,16 @@ export default function ReleaseText() {
             <PageTitle
                 title="New release"
                 textPosition="start"
-                decoration={"decoration-[#ece81f]"}
+                decoration={"decoration-[#C2632A]"}
             />
             <h3 className="text-2xl text-white mt-3 mb-6 font-bold">Out Now !</h3>
             <div className="h-56 w-56 md:hidden">
-                <img src={imgRelease} alt="Jiggle Cover Art" className="w-full h-full" />
+                <img src={imgRelease} alt="Jazzeado Cover Art" className="w-full h-full" />
             </div>
             <p className="text-white mt-3 text-center text-sm md:text-base md:text-start">
-            <strong className="text-[#ece81f]"><em>Jiggle</em></strong> is the second release by <strong className="text-[#ece81f]">Zarek</strong> on <strong className="text-[#ece81f]">MNTRV Records</strong>. The track brings rolling percussion, a funky electric guitar with attitude, and a groovy bassline that locks you in from the very first beat. Inspired by the spirit of constant movement, <em>Jiggle</em> blends playfulness with irresistible rhythm to deliver pure energy for the dancefloor. From intimate club nights to open-air festivals, it’s crafted to spark smiles, move bodies, and keep the vibe alive.<br /> <br />
+            <strong className="text-[#C2632A]"><em>Jazzeado</em></strong> by <strong className="text-[#C2632A]">Sebastian Montoya</strong> with <strong className="text-[#C2632A]">Zarek (COL)</strong> is the third release on <strong className="text-[#C2632A]">MNTRV Records</strong> and the label's first exciting collaboration. This track blends the driving percussion of tech house with the soulful warmth of house, delivering an uplifting, irresistible vibe.
+            
+            It features groovy basslines, vibrant saxophone and organ melodies, and a pure disco-inspired energy that locks you in from the very first beat. Crafted with Sebastian’s minimal touch and Zarek’s signature flow, <em>Jazzeado</em> is made to light up the dancefloor with movement, joy, and connection.<br /> <br />
             Now available on Beatport, Spotify, Apple Music, Deezer, and all major platforms.
             </p>
             <div className="md:mt-2 pt-3 pb-7 md:pt-3 flex flex-col md:flex-row items-center">

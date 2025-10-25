@@ -22,7 +22,7 @@ export default function Music() {
                 ogUrl={currentUrl}
                 ogTitle="Music | Zarek (COL)"
                 ogDescription="Experience the music of Zarek on Spotify. Stream now and follow him for updates on new releases!"
-                ogImage="/assets/img/Catalogo/JiggleCoverArt.webp"
+                ogImage="/assets/img/Catalogo/jazzeadoCoverArtOficial.webp"
             />
             <div className="min-h-screen relative ">
                 <ImageComponent
@@ -30,7 +30,7 @@ export default function Music() {
                     alt="Music Background"
                     className="hidden md:block -z-40 position absolute top-0 object-cover w-screen"
                 />
-                <div className="-z-20 absolute top-0 left-0 w-full h-full bg-[#1B5E8011] md:bg-[#1B5E8011]"></div>
+                <div className="-z-20 absolute top-0 left-0 w-full h-full bg-[#C2632A11] md:bg-[#C2632A11]"></div>
                 <Navbar />
                 <ReleaseContent />
                 <SpotifyContent />

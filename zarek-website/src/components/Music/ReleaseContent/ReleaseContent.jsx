@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import JiggleCover from '../../../assets/img/Catalogo/JiggleCoverArt.webp';
+import JazzeadoCover from '../../../assets/img/Catalogo/jazzeadoCoverArtOficial.webp';
 
 export default function ReleaseContent() {
     return (
@@ -28,9 +28,9 @@ export default function ReleaseContent() {
                 className="hidden w-full md:w-1/2 min-h-full mb-24 md:mb-0 md:flex justify-center items-center"
             >
                 <ImageComponent
-                    src={JiggleCover}
-                    alt="Jiggle CoverArt"
-                    className="w-80 rounded-2xl shadow-2xl shadow-[#513F01]/50"
+                    src={JazzeadoCover}
+                    alt="Jazzeado CoverArt"
+                    className="w-80 rounded-2xl shadow-2xl shadow-[#4F161B]/50"
                 />
             </motion.div>
         </motion.div>
