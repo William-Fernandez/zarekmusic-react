@@ -1,4 +1,4 @@
-import gangCover from "../assets/img/Catalogo/nuloud-cover-art.webp";
+// import gangCover from "../assets/img/Catalogo/nuloud-cover-art.webp";
 import ladyShakeCover from "../assets/img/Catalogo/ep-lady-shake.webp";
 import voxCover from "../assets/img/Catalogo/sojos-release.webp";
 import mamboleandoCover from "../assets/img/Catalogo/MamboleandoCover.webp";
@@ -54,14 +54,6 @@ const beatportData = [
         "artist": "Zarek (COL)",
         "label": "Concept Groove",
         "buyLink": "https://www.beatport.com/release/lady-shake-ep/4456018"
-    },
-    {
-        "id": 7,
-        "image": gangCover,
-        "title": "Gang EP",
-        "artist": "Zarek (COL)",
-        "label": "Nuloud Records",
-        "buyLink": "https://www.beatport.com/release/gang-ep/4750538"
     }
 ];
 
