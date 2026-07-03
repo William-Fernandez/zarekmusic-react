@@ -46,7 +46,7 @@ export default function DigitalStores() {
                 />
             </a>
             <a
-                href="https://www.youtube.com/watch?v=yAn8TBIbmNg"
+                href="https://youtu.be/CSmElGPKzHQ?si=81qdSm-6wh01Q393"
                 target="_blank"
                 title="Youtube"
             >
