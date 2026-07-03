@@ -7,7 +7,7 @@ import {
 } from "../../../assets/Utils/animation.js";
 import ReleaseText from "../ReleaseText/ReleaseText.jsx";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
-import goodTimeCover from "../../../assets/img/Catalogo/goodTimeArtwork-web.webp";
+import goodTimeCover from "../../../assets/img/Catalogo/grooveIsTheSauceCover.webp";
 
 export default function ReleaseContent() {
     return (
@@ -30,7 +30,7 @@ export default function ReleaseContent() {
                 <ImageComponent
                     src={goodTimeCover}
                     alt="Good Time CoverArt"
-                    className="w-80 rounded-2xl shadow-2xl shadow-[#976ED4]/50"
+                    className="w-80 rounded-2xl shadow-2xl shadow-[#FC90AD]/50"
                 />
             </motion.div>
         </motion.div>

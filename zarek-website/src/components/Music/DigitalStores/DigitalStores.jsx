@@ -13,68 +13,68 @@ export default function DigitalStores() {
     return (
         <div className="z-20 flex justify-center items-center gap-3 mx-2 text-zinc-300">
             <a
-                href="https://www.beatport.com/es/release/good-time/5900614"
+                href="https://www.beatport.com/es/release/groove-is-the-sauce/7019745"
                 target="_blank"
                 title="Beatport"
             >
                 <FontAwesomeIcon
                     icon={faCartShopping}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
             <a
-                href="https://open.spotify.com/intl-es/track/1xfpwlJ4jP4TkZuPE6iizB?si=52b06515e95e4cb8"
+                href="https://open.spotify.com/intl-es/track/3BxbLPmWu1UjzoivqbQuPm?si=4d0d7815bfed4d2d"
                 target="_blank"
                 title="Spotify"
             >
                 <FontAwesomeIcon
                     icon={faSpotify}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
             <a
-                href="https://music.apple.com/gb/album/good-time-single/1876030106"
+                href="https://music.apple.com/us/song/groove-is-the-sauce/6776398189"
                 target="_blank"
                 title="Apple Music"
             >
                 <FontAwesomeIcon
                     icon={faApple}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
             <a
-                href="https://www.youtube.com/watch?v=hw2K7xUB6CA"
+                href="https://www.youtube.com/watch?v=yAn8TBIbmNg"
                 target="_blank"
                 title="Youtube"
             >
                 <FontAwesomeIcon
                     icon={faYoutube}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
             <a
-                href="https://www.deezer.com/es/track/3833790441"
+                href="https://link.deezer.com/s/33JeDznRs4KuV9tvfvApR"
                 target="_blank"
                 title="Deezer"
             >
                 <FontAwesomeIcon
                     icon={faDeezer}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
             <a
-                href="https://soundcloud.com/zarek-dj/good-time"
+                href="https://soundcloud.com/zarek-dj/groove-is-the-sauce"
                 target="_blank"
                 title="SoundCloud"
             >
                 <FontAwesomeIcon
                     icon={faSoundcloud}
-                    className="hover:scale-125 transition duration-300 hover:text-[#B4D5FD]"
+                    className="hover:scale-125 transition duration-300 hover:text-[#FC90AD]"
                     size="xl"
                 />
             </a>
