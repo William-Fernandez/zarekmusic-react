@@ -10,19 +10,24 @@ export default function Meta({
     ogDescription,
     ogImage,
 }) {
-    const absoluteOgImage = new URL(ogImage, window.location.origin).href;
+    const canonicalUrl = new URL(ogUrl, "https://zarekmusic.com");
+    canonicalUrl.protocol = "https:";
+    canonicalUrl.hostname = "zarekmusic.com";
+    canonicalUrl.search = "";
+    canonicalUrl.hash = "";
+    const absoluteOgImage = new URL(ogImage, canonicalUrl.origin).href;
 
     return (
         <Helmet>
             <title>{title}</title>
             <meta name="description" content={description} />
             <meta name="author" content={author} />
-            <link rel="canonical" href={ogUrl} />
+            <link rel="canonical" href={canonicalUrl.href} />
 
             <meta property="og:type" content="website" />
             <meta property="og:site_name" content="Zarek (COL)" />
             <meta property="og:locale" content="en_GB" />
-            <meta property="og:url" content={ogUrl} />
+            <meta property="og:url" content={canonicalUrl.href} />
             <meta property="og:title" content={ogTitle} />
             <meta property="og:description" content={ogDescription} />
             <meta property="og:image" content={absoluteOgImage} />
