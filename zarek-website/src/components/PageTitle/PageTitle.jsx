@@ -1,11 +1,20 @@
-import React from "react";
+import PropTypes from "prop-types";
 
-function PageTitle({ title, textPosition, decoration }) {
+function PageTitle({ title, textPosition, decoration, as: Heading = "h1" }) {
     return (
-        <h1 className={`text-${textPosition} text-3xl md:text-4xl font-bold text-white tracking-widest underline decoration-[3px] underline-offset-[10px] ${decoration}`}>
+        <Heading
+            className={`text-${textPosition} text-3xl md:text-4xl font-bold text-white tracking-widest underline decoration-[3px] underline-offset-[10px] ${decoration}`}
+        >
             {title}
-        </h1>
+        </Heading>
     );
 }
+
+PageTitle.propTypes = {
+    title: PropTypes.string.isRequired,
+    textPosition: PropTypes.string.isRequired,
+    decoration: PropTypes.string,
+    as: PropTypes.elementType,
+};
 
 export default PageTitle;

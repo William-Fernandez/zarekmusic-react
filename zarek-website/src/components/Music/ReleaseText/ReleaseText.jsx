@@ -1,4 +1,3 @@
-import React from "react";
 import PageTitle from "../../PageTitle/PageTitle.jsx";
 import DigitalStores from "../DigitalStores/DigitalStores.jsx";
 import imgRelease from "../../../assets/img/Catalogo/grooveIsTheSauceCover.webp";
@@ -31,9 +30,9 @@ export default function ReleaseText() {
                 marks a new chapter in my journey as a producer. Created with a
                 more instinctive and playful approach, the track reflects my
                 desire to focus on what feels natural in the studio and create
-                music that connects through groove rather than complexity. I'm
-                excited to finally share it and hope you enjoy listening to it
-                as much as I enjoyed making it.
+                music that connects through groove rather than complexity.
+                I&apos;m excited to finally share it and hope you enjoy
+                listening to it as much as I enjoyed making it.
                 <br /> <br />
                 Now available on Beatport, Spotify, Apple Music, Deezer, and all
                 major streaming platforms.

@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMusic } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,15 +17,17 @@ function Card({ title, link, displayText, iconName }) {
     const icon = getIcon();
 
     return (
-        <div className="bg-gray-600/80 rounded-lg px-5 py-9 w-56 xs:w-72 shadow-md text-white m-2 text-center">
+        <article className="bg-gray-600/80 rounded-lg px-5 py-9 w-56 xs:w-72 shadow-md text-white m-2 text-center">
             <div className="flex items-center justify-center mb-2">
                 {icon && (
                     <FontAwesomeIcon
                         icon={icon}
                         className="text-2xl mr-2 text-[#4498B4]"
+                        aria-hidden="true"
                     />
                 )}
-                <h2 className="text-lg m-0 font-bold">{title}</h2> {/* Título */}
+                <h2 className="text-lg m-0 font-bold">{title}</h2>{" "}
+                {/* Título */}
             </div>
             <a
                 href={link}
@@ -35,8 +37,15 @@ function Card({ title, link, displayText, iconName }) {
             >
                 {displayText || link}
             </a>
-        </div>
+        </article>
     );
 }
+
+Card.propTypes = {
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    displayText: PropTypes.string,
+    iconName: PropTypes.string,
+};
 
 export default Card;

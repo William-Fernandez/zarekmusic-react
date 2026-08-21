@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -49,7 +49,7 @@ export default function ContactForm() {
         try {
             console.log(
                 "Intentando enviar la petición a:",
-                "http://localhost:5000/api/send-email"
+                "http://localhost:5000/api/send-email",
             );
             console.log("Datos a enviar:", formData);
 
@@ -61,13 +61,13 @@ export default function ContactForm() {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify(formData),
-                }
+                },
             );
 
             if (!response.ok) {
                 const errorData = await response.json();
                 throw new Error(
-                    errorData?.message || `Error: ${response.status}`
+                    errorData?.message || `Error: ${response.status}`,
                 );
             }
 
@@ -89,9 +89,19 @@ export default function ContactForm() {
 
     return (
         <div>
+            {submissionMessage && (
+                <p
+                    role="status"
+                    aria-live="polite"
+                    className={`mb-4 text-center ${submissionMessage.type === "error" ? "text-red-800" : "text-green-900"}`}
+                >
+                    {submissionMessage.text}
+                </p>
+            )}
             <div className="flex justify-center items-center">
                 <form
                     onSubmit={handleSubmit}
+                    aria-busy={isSubmitting}
                     className="max-w-2xl w-full bg-gray-600/80 pb-6 px-4 rounded-md text-white"
                 >
                     <div className="flex flex-col md:flex-row w-full">
@@ -106,6 +116,8 @@ export default function ContactForm() {
                                 type="text"
                                 placeholder="Enter your name"
                                 name="fullName"
+                                id="fullName"
+                                autoComplete="name"
                                 value={formData.fullName}
                                 onChange={handleChange}
                                 required
@@ -123,6 +135,8 @@ export default function ContactForm() {
                                 type="email"
                                 placeholder="Enter your email"
                                 name="email"
+                                id="email"
+                                autoComplete="email"
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
@@ -131,7 +145,12 @@ export default function ContactForm() {
                         </div>
                     </div>
                     <div className="mt-5 drop-shadow-lg">
-                        <label htmlFor="message" className="w-72 font-semibold text-lg">Message</label>
+                        <label
+                            htmlFor="message"
+                            className="w-72 font-semibold text-lg"
+                        >
+                            Message
+                        </label>
                         <textarea
                             name="message"
                             id="message"
@@ -144,9 +163,11 @@ export default function ContactForm() {
                     </div>
                     <button
                         type="submit"
+                        disabled={isSubmitting}
+                        aria-disabled={isSubmitting}
                         className="drop-shadow-lg w-full h-10 bg-[#4498B4] border-none rounded-lg text-white font-semibold mt-5 hover:bg-[#1A4F82] transition duration-200"
                     >
-                        Send Message
+                        {isSubmitting ? "Sending..." : "Send Message"}
                     </button>
                 </form>
             </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../../components/Navbar/NavbarPages.jsx";
 import Layout from "../../components/Layout/Layout.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
@@ -7,6 +6,7 @@ import musicBack from "../../assets/img/banner-web.webp";
 import ReleaseContent from "../../components/Music/ReleaseContent/ReleaseContent.jsx";
 import SpotifyContent from "../../components/Music/SpotifyContent/SpotifyContent.jsx";
 import Meta from "../../components/MetaTag/Meta.jsx";
+import ogImage from "../../assets/img/Catalogo/grooveIsTheSauceCover.webp";
 
 export default function Music() {
     const currentUrl = window.location.href;
@@ -22,9 +22,9 @@ export default function Music() {
                 ogUrl={currentUrl}
                 ogTitle="Music | Zarek (COL)"
                 ogDescription="Experience the music of Zarek on Spotify. Stream now and follow him for updates on new releases!"
-                ogImage="/assets/img/Catalogo/grooveIsTheSauceCover.webp"
+                ogImage={ogImage}
             />
-            <div className="min-h-screen relative ">
+            <main className="min-h-screen relative ">
                 <ImageComponent
                     src={musicBack}
                     alt="Music Background"
@@ -35,7 +35,7 @@ export default function Music() {
                 <ReleaseContent />
                 <SpotifyContent />
                 <Footer />
-            </div>
+            </main>
         </Layout>
     );
 }

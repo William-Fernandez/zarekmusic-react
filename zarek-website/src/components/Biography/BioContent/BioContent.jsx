@@ -1,6 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { contenedorVariantes, varianteImagen, varianteTexto } from "../../../assets/Utils/animation.js";
+import {
+    contenedorVariantes,
+    varianteImagen,
+    varianteTexto,
+} from "../../../assets/Utils/animation.js";
 import ImageComponent from "../../ImageComponent/ImageComponent.jsx";
 import bioImage from "../../../assets/img/BACK-SPOTIFY-SQ.webp";
 import BiographySection from "../../../components/Biography/BiographySection/BiographySection.jsx";
@@ -30,7 +33,11 @@ export default function BioContent() {
                         variants={varianteTexto}
                         className="w-11/12 lg:w-1/2 min-h-dvh mt-5 px-2 pb-5 flex flex-col justify-center overflow-hidden"
                     >
-                        <PageTitle title='BIOGRAPHY' textPosition='center' decoration={"decoration-cyan-700"}/>
+                        <PageTitle
+                            title="BIOGRAPHY"
+                            textPosition="center"
+                            decoration={"decoration-cyan-700"}
+                        />
                         <BiographySection />
                     </motion.div>
                 </motion.div>

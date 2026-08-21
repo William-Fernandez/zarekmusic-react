@@ -1,7 +1,7 @@
-import React from "react";
 import { motion } from "framer-motion";
 import Navbar from "../../components/Navbar/Navbar.jsx";
 import logo from "../../assets/img/logo.webp";
+import ogImage from "../../assets/img/Catalogo/nuloud-cover-art.webp";
 import Layout from "../../components/Layout/Layout.jsx";
 import SocialIcons from "../../components/SocialIcons/SocialIcons.jsx";
 import BackgroundVideo from "../../components/VideoBack/VideoBack.jsx";
@@ -40,21 +40,23 @@ export default function HomePage() {
                 ogTitle="Home | Zarek (COL)"
                 ogDescription="Welcome to Zarek's official website. New ep GANG
                 is out now."
-                ogImage="/assets/img/Catalogo/nuloud-cover-art.webp"
+                ogImage={ogImage}
             />
-            <div className="hidden md:block">
+            <div aria-hidden="true">
                 <BackgroundVideo />
             </div>
-            <section className="h-screen bg-black md:bg-transparent  w-screen flex justify-center flex-col items-center overflow-hidden">
+            <section className="relative z-10 h-screen bg-black/0 w-screen flex justify-center flex-col items-center overflow-hidden">
                 <div className="container mx-auto px-4 pt-10 md:pt-20 flex flex-col items-center mb-14">
-                    <motion.img
-                        src={logo}
-                        alt="Zarek's Logo"
-                        className="max-w-80 md:max-w-96 mb-8 md:mb-16"
-                        variants={logoVariants}
-                        initial="hidden"
-                        animate="visible"
-                    />
+                    <h1>
+                        <motion.img
+                            src={logo}
+                            alt="Zarek"
+                            className="max-w-80 md:max-w-96 mb-8 md:mb-16"
+                            variants={logoVariants}
+                            initial="hidden"
+                            animate="visible"
+                        />
+                    </h1>
                     <div className="w-full md:w-auto">
                         <Navbar />
                     </div>

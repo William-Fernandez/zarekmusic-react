@@ -1,5 +1,3 @@
-import React from "react";
-
 function BiographySection() {
     return (
         <div className="text-slate-50 mt-5 text-sm leading-tight text-justify">
@@ -31,9 +29,10 @@ function BiographySection() {
                 first DJ residency. He then went on to secure an additional
                 residency at <strong>Club Aquarium</strong> in Old Street as
                 well as performing at multiple events such as{" "}
-                <strong>"The Movie"</strong> and <strong>"Movimento"</strong>.
-                Internationally, <strong>Zarek</strong> has also performed at
-                private events across Italy, Spain, Colombia and Poland.
+                <strong>&quot;The Movie&quot;</strong> and{" "}
+                <strong>&quot;Movimento&quot;</strong>. Internationally,{" "}
+                <strong>Zarek</strong> has also performed at private events
+                across Italy, Spain, Colombia and Poland.
             </p>
             <p className="p-2">
                 In 2018, <strong>Zarek</strong> returned to Colombia, where he
@@ -44,11 +43,11 @@ function BiographySection() {
             </p>
             <p className="p-2">
                 Currently based in the UK, <strong>Zarek</strong> has just
-                return from Colombia, where he was collaborating with
+                returned from Colombia, where he was collaborating with
                 influential artists in the vibrant Colombian music scene. This
                 exciting chapter focused on pushing creative boundaries in music
                 production, with multiple highly anticipated releases slated for
-                this year. Stay tuned for what's coming next!
+                this year. Stay tuned for what&apos;s coming next!
             </p>
             <p className="p-2">
                 In 2025, Zarek launched his own record label,{" "}

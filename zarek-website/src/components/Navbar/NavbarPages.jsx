@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../../assets/img/logo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +13,10 @@ export default function Navbar() {
 
     return (
         <header className="z-40 bg-black bg-opacity-95 min-w-full h-16 border-b border-white border-solid fixed w-full">
-            <nav className="flex justify-between items-center h-full">
+            <nav
+                aria-label="Primary navigation"
+                className="flex justify-between items-center h-full"
+            >
                 <NavLink
                     to="/"
                     className="hover:opacity-70 transition duration-300 ease-in-out z-40"
@@ -106,16 +109,30 @@ export default function Navbar() {
 
                 {/* Botón de hamburguesa */}
                 <button
+                    type="button"
                     onClick={toggleMenu}
+                    aria-label={
+                        isMenuOpen
+                            ? "Close navigation menu"
+                            : "Open navigation menu"
+                    }
+                    aria-expanded={isMenuOpen}
+                    aria-controls="mobile-navigation"
                     className="md:hidden text-white text-3xl z-50 mr-3"
                 >
-                    <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
+                    <FontAwesomeIcon
+                        icon={isMenuOpen ? faTimes : faBars}
+                        aria-hidden="true"
+                    />
                 </button>
             </nav>
 
             {/* Menú desplegable */}
             {isMenuOpen && (
-                <div className="md:hidden absolute top-16 left-0 w-full bg-black p-4 flex flex-col items-center">
+                <div
+                    id="mobile-navigation"
+                    className="md:hidden absolute top-16 left-0 w-full bg-black p-4 flex flex-col items-center"
+                >
                     <NavLink
                         to="/bio"
                         className="py-2 text-white uppercase font-bold text-xs tracking-widest hover:text-gray-300"

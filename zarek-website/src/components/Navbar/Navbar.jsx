@@ -1,11 +1,15 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
         <header className="max-w-full h-auto py-4">
-            <nav className="container mx-auto px-4">
-                <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12 text-white uppercase font-bold tracking-wider"> {/* Usando gap-4 md:gap-12 */}
+            <nav
+                aria-label="Primary navigation"
+                className="container mx-auto px-4"
+            >
+                <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-12 text-white uppercase font-bold tracking-wider">
+                    {" "}
+                    {/* Usando gap-4 md:gap-12 */}
                     <Link
                         to="/bio"
                         className="inline-flex items-center justify-center py-2 px-4 hover:text-gray-300 transition duration-300 ease-in-out box-border"

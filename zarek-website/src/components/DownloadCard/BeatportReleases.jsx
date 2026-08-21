@@ -1,4 +1,3 @@
-import React from "react";
 import Release from "./Release.jsx";
 import beatportData from "../../data/bearportData.js";
 

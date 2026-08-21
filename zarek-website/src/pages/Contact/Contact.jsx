@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "../../components/Layout/Layout";
 import PageTitle from "../../components/PageTitle/PageTitle.jsx";
 import ContactForm from "../../components/ContactForm/ContactForm.jsx";
@@ -7,6 +6,7 @@ import PromoCard from "../../components/ContactForm/PromoCards.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import backimgMusic from "../../assets/img/zarek-studio-rosado.webp";
 import Meta from "../../components/MetaTag/Meta.jsx";
+import ogImage from "../../assets/img/zarek-live.jpg";
 
 export default function Contact() {
     const currentUrl = window.location.href;
@@ -36,7 +36,7 @@ export default function Contact() {
                 ogUrl={currentUrl}
                 ogTitle="Contact | Zarek (COL)"
                 ogDescription="For press, management, or booking inquiries for Zarek, visit his contact page. Find the necessary information to connect with his team."
-                ogImage="/assets/img/zarek-live.webp"
+                ogImage={ogImage}
             />
             <Navbar />
 
@@ -51,7 +51,11 @@ export default function Contact() {
 
                 <div className="relative z-10 mx-auto max-w-7xl md:px-6 pb-12">
                     <div className="drop-shadow-lg">
-                        <PageTitle title="CONTACT" textPosition="center" decoration={"decoration-cyan-700"} />
+                        <PageTitle
+                            title="CONTACT"
+                            textPosition="center"
+                            decoration={"decoration-cyan-700"}
+                        />
                         <div className="flex flex-col xs:flex-row justify-center items-center mt-10 mb-5">
                             {cardData.map((card, index) => (
                                 <PromoCard key={index} {...card} />
