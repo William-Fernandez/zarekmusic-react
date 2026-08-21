@@ -16,6 +16,7 @@ export default function DigitalStores() {
                 href="https://www.beatport.com/es/release/groove-is-the-sauce/7019745"
                 target="_blank"
                 title="Beatport"
+                rel="noopener noreferrer"
             >
                 <FontAwesomeIcon
                     icon={faCartShopping}
@@ -27,6 +28,7 @@ export default function DigitalStores() {
                 href="https://open.spotify.com/intl-es/track/3BxbLPmWu1UjzoivqbQuPm?si=4d0d7815bfed4d2d"
                 target="_blank"
                 title="Spotify"
+                rel="noopener noreferrer"
             >
                 <FontAwesomeIcon
                     icon={faSpotify}
@@ -37,6 +39,7 @@ export default function DigitalStores() {
             <a
                 href="https://music.apple.com/us/song/groove-is-the-sauce/6776398189"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Apple Music"
             >
                 <FontAwesomeIcon
@@ -48,6 +51,7 @@ export default function DigitalStores() {
             <a
                 href="https://youtu.be/CSmElGPKzHQ?si=81qdSm-6wh01Q393"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Youtube"
             >
                 <FontAwesomeIcon
@@ -59,6 +63,7 @@ export default function DigitalStores() {
             <a
                 href="https://link.deezer.com/s/33JeDznRs4KuV9tvfvApR"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Deezer"
             >
                 <FontAwesomeIcon
@@ -70,6 +75,7 @@ export default function DigitalStores() {
             <a
                 href="https://soundcloud.com/zarek-dj/groove-is-the-sauce"
                 target="_blank"
+                rel="noopener noreferrer"
                 title="SoundCloud"
             >
                 <FontAwesomeIcon
