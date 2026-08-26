@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import videoMp4 from "../../assets/video/Party-Video.mp4";
 import videoWebm from "../../assets/video/Party-Video.webm";
+import videoPoster from "../../assets/img/zarek-live.jpg";
 
 function BackgroundVideo() {
     const videoRef = useRef(null);
@@ -27,6 +28,7 @@ function BackgroundVideo() {
                 muted
                 playsInline
                 preload="auto"
+                poster={videoPoster}
                 aria-hidden="true"
                 className="absolute inset-0 w-full h-full object-cover"
             >
